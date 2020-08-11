@@ -1,0 +1,14 @@
+name: 'Engine Test Steps'
+description: 'Reusabel Rails Engine test steps'
+inputs:
+  engine-name: # id of input
+    description: 'Which engine to test'
+    required: true
+    default: ''
+runs:
+  using: "composite"
+  steps:
+    - run: echo Run Test for ${{ inputs.engine-name }}.
+    shell: bash
+    - run: echo Test finished!
+    shell: pwsh
