@@ -1,4 +1,4 @@
-name: 'Engine Test Steps'
+name: 'Engine-Test-Steps'
 description: 'Reusabel Rails Engine test steps'
 inputs:
   engine-name: # id of input
